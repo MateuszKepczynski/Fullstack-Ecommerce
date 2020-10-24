@@ -1,0 +1,10 @@
+<div class="form-header">
+
+  <input #myInput (keyup.enter)="doSearch(myInput.value)"
+         class="au-input au-input-xl" type="text" name="search"
+         placeholder="Search for data ..."/>
+
+  <button (click)="doSearch(myInput.value)" class="au-btn-submit" type="submit">
+    Search
+  </button>
+</div>
