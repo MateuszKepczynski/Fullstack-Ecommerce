@@ -1,4 +1,4 @@
-package com.luv2code.ecommerce.comfig;
+package com.luv2code.ecommerce.config;
 
 import com.luv2code.ecommerce.entity.Country;
 import com.luv2code.ecommerce.entity.Product;
